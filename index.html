@@ -29,10 +29,15 @@
     font-family:'Manrope', sans-serif;
     color:var(--cream);
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
     min-height:100vh;
+    min-height:100dvh;
     padding:24px;
+  }
+
+  @media (max-width:600px){
+    body{ padding:14px; }
   }
 
   .room{ width:100%; max-width:980px; }
